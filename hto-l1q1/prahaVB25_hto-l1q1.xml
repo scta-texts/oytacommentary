@@ -1,0 +1,833 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 1, Quaestio 1  [Praha V.B.25 Transcription]</title>
+        <author ref="#Oyta">Henricus Totting de Oyta</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 1, Quaestio 1  [Praha V.B.25 Transcription]</title>
+          <date when="2017-09-08">September 08, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="prahaVB25">Praha, Národní knihovna České republiky, V.B.25</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a critical edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-09-07" who="#JW" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1-r"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="hto-l1q1">
+        <head>Liber 1, Quaestio 1 [Praha V.B.25 Transcription]</head>
+        <p>
+          <lb ed="#P"/>Circa primum sententiarum 
+          <lb ed="#P"/>primo quaeritur utrum 
+          <lb ed="#P"/>Circa primum sententiarum primo quaeritur 
+          <lb ed="#P"/><pc ana="#pilcrow"/>utrum ex testimoniis veteris in aeternum fundatis 
+          <lb ed="#P"/>constet theologyam esse scientiam omnibus scientiis 
+          <lb ed="#P"/>humanits inventis condistincta arguitur quod non 
+          <lb ed="#P"/>primo quia vel per huiusmodi testimonia intelligitur 
+          <lb ed="#P"/>principia per se nota <unclear>invariabilis veritas</unclear> et aeternae 
+          <lb ed="#P"/>vel solum auctoritates et quaedam probabi?tes scilicet primum 
+          <lb ed="#P"/>tunc theologia est quaedam scientia praehabita vel 
+          <lb ed="#P"/>methaphysica et per consequens est una de scientiis humanitus 
+          <lb ed="#P"/>invenitis Si 2m tunc ista testimonia non 
+          <lb ed="#P"/>faciunt scientiam sed opinionem vel fidem quae est 
+          <lb ed="#P"/>infra scientiam ut patet per <name ref="#HughOfStVictor">hugonem</name> in libro pri<lb ed="#P"/>mo 
+          parte decima capitulo <unclear>u?o</unclear> dicentem fides 
+          <lb ed="#P"/>est medium inter opinionem et scientiam
+        </p>
+        <p>
+          <lb ed="#P"/><pc ana="#pilcrow"/> <!-- left off here -->
+        </p>
+        
+        <div>
+        <head>Conclusio Secunda</head>
+        <p>Secunda conclusio: 
+          <lb ed="#P"/>licet omnes articuli fidei dici possint Sacrae Scrip<lb ed="#P"/>turae, 
+           principia, non tamen sint omnes[omnis] principia aeque principa, nec 
+          <lb ed="#P"/>omnia, nec omnes sunt principia simplicter, deducta respectu[?] omnium 
+          <lb ed="#P"/>articulorum et quae non sint articuli.</p>
+        
+        <p>Prima pars conclusionis probatur ita: numerato[??] dici 
+          <lb ed="#P"/>possunt principia theologiae, quae sint q[?conclusiones[?]] respectum ins[??] omnium articulorum 
+          <lb ed="#P"/>in theologia consideratorum et quorum adhaesio c??bus[?] aliis 
+          <lb ed="#P"/>conclusionibus theologicis inquantum theologice sunt praerequiritur. 
+          <lb ed="#P"/>Sed omnes articuli fide sint huiusmodi, igitur etc. Maior nota, quia in omni 
+          <lb ed="#P"/>facultate, principia sunt tamquam[?] iunsatur[??] et secunda cetorum, quibus maxime 
+          <lb ed="#P"/>adhaeremus et aliis propter ista conclusionibus, enim adhaeremus 
+          <lb ed="#P"/>propter principia, ut patet prima <title>Posteriorum</title>. Minor probatur, quia ad intelligendum 
+          <lb ed="#P"/>conclusiones theologicas praerequiritur fides articulorum, quia tquae[?] articulorum 
+          <lb ed="#P"/>respectu tam in speculabilibus quam in agibilibus credendi proportionaliter[?]. 
+          <lb ed="#P"/>Et ideo <title>Isaiah</title> septimo, dicitur "nisi crederetis, non intelligetur." 
+          <lb ed="#P"/>et primo <title>Electorum</title> "oportet addiscentem credere".</p>
+        
+      </div>
+      
+      <div>
+        <head>Tertia conclusio</head>
+        <p>Tertia conclusio: nec propositiones mere proba<lb ed="#P"/>biles 
+          <lb ed="#P"/>sumptae ex aliis scientiis, nec propositiones in 
+          <lb ed="#P"/>luminem naturali evidentes sunt nostrae 
+          <lb ed="#P"/>theologiae sufficientiae principia. Probatur: articuli fidei sicut 
+          <lb ed="#P"/>principia nostrae theologiae, quia nec sunt propositiones 
+          <lb ed="#P"/>probabiles sumptae ex aliis scientiis, nec in naturali lumine 
+          <lb ed="#P"/>evidentes. Hoc patet de articulo Trinitatis et incarnationis, et igitur.</p>
+        
+        <p>Confirmatur prima pars: nullae propositiones mere 
+          <lb ed="#P"/>probabiles natae sunt de se causare fidem 
+          <lb ed="#P"/>vel scientiam, igitur etc. Consequentia tenet ex eo quod principia theologiae 
+          <lb ed="#P"/>fidem vel scientiam nata sunt causare de se. Antecedens patet 
+          <lb ed="#P"/>quia ex mere probabilibus quantum est de se non potest 
+          <lb ed="#P"/>causare, nisi opinio. Sed opinio inferior est tam 
+          <lb ed="#P"/>fide quam scientia, igitur.</p>
+        
+          <p>Secunda pars conclusionis probatur, quia si 
+            <lb ed="#P"/>propositiones evidentes in lumine naturali essent 
+            <lb ed="#P"/>nostrae theologiae sufficientia principia, sequeretur quod intellectus 
+            <lb ed="#P"/>teneretur credere vel assentire veritatibus theologicis, 
+            <lb ed="#P"/>nisi habere rationem efficatur cogentem in 
+            <lb ed="#P"/>lumine naturali. Falsa[?] tenet[?] per <name>Augustinum</name> in <title>Dialo<lb ed="#P"/>go 
+              suo ad Felicianum</title>, ubi dicit quod quorundam 
+            <lb ed="#P"/>haereticorum opinio fuit quod scientia ratione redi<lb ed="#P"/>ta 
+            non est credendum scripturae.</p>
+      </div>
+      <div>
+        <head>Obiectiones</head>
+        
+        <p>Item<app><lem/><rdg type="marginalNote">obiectiones</rdg></app> 
+          <lb ed="#P"/>in libro <title>Dei ?ci?itate?</title> credendum capitulo XXVI dicit: 
+          <lb ed="#P"/>qui credendum, negant nisi indubitata 
+          <lb ed="#P"/>ratio fuerit Christiani non sunt.</p>
+        
+        <p>Contra suppositionem<app><lem></lem><rdg type="marginalNote">contra suppositionem et eius corollaria[?]</rdg></app> 
+          <lb ed="#P"/>praemissam, secundus[?] eius corollaria arguit[?] iu???? Trinitatis 
+          <lb ed="#P"/>et etiam incarnationis est humanitus cog<lb ed="#P"/>noscibile 
+        in solo lumine naturali. Igitur suppositio falsa 
+          <lb ed="#P"/>cum corollaris suis. Consquentia tenet, quia ista sunt de 
+          <lb ed="#P"/><name>Altissiodorensis</name> nostrae theologiae veritatibus, igitur si ipsa in 
+          <lb ed="#P"/>solo naturali lumine cognoscibilia sunt ab 
+          <lb ed="#P"/>homine, sequitur quod tota theologica nostra est humanitus 
+          <lb ed="#P"/>naturali ratione invenibilis seu investi<lb ed="#P"/>gabilis, 
+          <lb ed="#P"/>assumptum, quo ad primam partem de uni[?], scilicet,[?] 
+          <lb ed="#P"/>termino[?] Trinitatis, sic probatur, quia <name>Ad Romanos</name> primo
+          <pb ed="#P" n="6-r"/>
+          <cb ed="#P" n="a"/> 
+          <lb ed="#P"/>dicitur quod: "invisibilia Dei per ea quae facta sunt a 
+          <lb ed="#P"/>creatura mundi, id est, ab homine inventa conspi<lb ed="#P"/>ciuntur           
+        sempiterna quoque<app><lem>que</lem><rdg type="add."><add place="aboveLine">que</add></rdg></app> eius virtus et di<lb ed="#P"/>vinitas." 
+        Ubi glosa, per ista termina 'invisibilia 
+        <lb ed="#P"/>sempiterna virtus et divinitas' intelligitur terminis 
+          <lb ed="#P"/>personarum, sed ista tertia cognoscebantur a philosophis 
+          <lb ed="#P"/>naturali ratione, scilicet, per creaturas, ut idem 
+          <lb ed="#P"/>vult <name>Apostolus</name>. Igitur trinitas personarum in di<lb ed="#P"/>vinis 
+        naturali lumine seu ratione fuit nota philosophis, qui etiam unitatem essentiae 
+          <lb ed="#P"/>divinae cognoverunt, ut patet idem per <name>Apostolum</name> di<lb ed="#P"/>centem, 
+        qui cum cognovissent Deum, et 
+          <lb ed="#P"/>ubi[?] Glosa usque a Deo et unum facerentur esse 
+          <lb ed="#P"/>principium a quo omnia in iterum[?] sunt sortita.</p>
+        
+        <p><lb ed="#P"/>Secundo probatur idem assumptum auctoritate <name>Augustini</name> 
+          <lb ed="#P"/>VII <title>Confessionum</title>, capitulo 9[?] dicentis "in libris 
+          <lb ed="#P"/>Platonis legi multiplicibus rationibus siu[?] aDei[?} 
+          <lb ed="#P"/>ex in principio erat verum et Verbum erat apud[?] Deum 
+          <lb ed="#P"/>et Deus erat Verbum omnia per ipsum facta sunt 
+          <lb ed="#P"/>ideae Platois, id est, rationes creaturarum in verbo, 
+          <lb ed="#P"/>ex quo satis patet propositum.</p>
+        
+        <p>Item <name>Trisme<lb ed="#P"/>gistus</name> 
+          in principio libri sui de Verbo aeterno, mo<lb ed="#P"/>nas 
+        monadem gignit et in se ipso suum 
+          <lb ed="#P"/>reflectit ardorem, ergo <name>Trismegistus</name> notitiam 
+          <lb ed="#P"/>habuit Trinitatis, quia monas gignens est 
+          <lb ed="#P"/>Pater, monas genitus Filius, et ardor Spiritus 
+          <lb ed="#P"/>Sanctus.</p>
+        
+        <p>Item <name>Richardus</name> primo <title>De Trinitate</title> 
+          <lb ed="#P"/>capitulo quarto dicit erit itaque intentionis nostrae in 
+          <lb ed="#P"/>hoc opere ad ea quae credimus inquantum 
+          <lb ed="#P"/>donus dederit non modo probabilis verum etiam 
+          <lb ed="#P"/>necessaria rationes adducere, sed in illo libro per 
+          <lb ed="#P"/>totum ipse intendit manifestare principaliter di<lb ed="#P"/>vinae 
+          <lb ed="#P"/>essentia unitatem et personarum pluralitatem, 
+          <lb ed="#P"/>igitur ad hoc convincendum invenire possunt humani<lb ed="#P"/>tus 
+          <lb ed="#P"/>necessariae rationes.</p>
+        
+        <p>Item ibidem libro tertio 
+          <lb ed="#P"/>capitulo primo dicit se velle investigare quid 
+          <lb ed="#P"/>de divinarum personarum pluralitate vel proprietatibus 
+          <lb ed="#P"/>sentire debeamus, et paulo post dicit, sui esse 
+          <lb ed="#P"/>propositi ista non ex Scripturam testimoniis,
+          <lb ed="#P"/>sed ex rationis acestatioe[?] convincere." Ex quo 
+          <lb ed="#P"/>sequitur quod trinitas personarum in divinius huma<lb ed="#P"/>na 
+          ratione convincibilis.</p>
+        
+        <p>Item probatur hoc 
+          <lb ed="#P"/>rationibus suis, quarum unam ponit ibidem
+          <cb ed="#P" n="b"/> <!-- <cb n="6rb"/> --> 
+          <lb ed="#P"/>libro tertio, capitulo secundo, et supponit duas propositiones per se 
+          <lb ed="#P"/>notas. Quarum prima est quod in illo summo bono 
+          <lb ed="#P"/>verum[??] sequitur perfectio sit totius bonitatis plenitudo 
+          <lb ed="#P"/>atque perfectio. Ex qua sequitur quod ibi summa cari<lb ed="#P"/>tas 
+        de esse non potest, quia nihil caritate perfectius. 
+          <lb ed="#P"/>Secunda: summa caritas non est amor privatus, sed 
+          <lb ed="#P"/>communis, alias enim sit diminutus. Ex qua 
+          <lb ed="#P"/>sequitur tertia quod amor non dicitur  caritas, nisi 
+          <lb ed="#P"/>in alterum tendat. Ex quibus concludit quod 
+          <lb ed="#P"/>ubi pluralitas personarum debet caritas 
+          <lb ed="#P"/>omnino esse non potest.</p>
+        
+        <p>Forte diceres: si so<lb ed="#P"/>la 
+        una persona in illa vera divinitate 
+          <lb ed="#P"/>esset volumus[??] ca??ere[?] erga creaturam suam 
+          <lb ed="#P"/>caritatem habere posset.</p>
+        
+        <p>Contra hoc arguit: 
+          <lb ed="#P"/>si summa caritatem erga personam creatam 
+          <lb ed="#P"/>habere posset sequeretur quod inordinata esset caritas divi<lb ed="#P"/>na 
+          <lb ed="#P"/>quod est impossibile propte summa sapientiam quae 
+          <lb ed="#P"/>in ordinationem non admittit. Consequentia tenet, quia 
+          <lb ed="#P"/>summe diligeret quod summe diligendum non 
+          <lb ed="#P"/>esset.</p>
+        
+        <p>Sed diceres non oporteret quod persona 
+          <lb ed="#P"/>divina aliam rem a se summe diligeret[diliget[?]].</p>
+        
+        <p>Contra hoc arguit quia ut caritas summa et summe perfecta sit oportet ut sit tanta 
+          <lb ed="#P"/>qua non possit esse maior, et ut sit talis 
+          <lb ed="#P"/>qua non possit esse melior quam dui[?] 
+          <lb ed="#P"/>aliquis nullum alium quam se ipsum diligit 
+          <lb ed="#P"/>iste quem erga se habet privatus amor convin<lb ed="#P"/>cit 
+          quos summum caritatis gradum nec dum com<lb ed="#P"/>prehendit, 
+        sed persona divina perfectionem non 
+          <lb ed="#P"/>habet quam ut se ipsam diligeret, si con<lb ed="#P"/>dignam 
+        personam omnino non haberet summe 
+          <lb ed="#P"/>autem persona condigna non esset persona quae 
+          <lb ed="#P"/>Deus non esset, ut ergo in illa vera divinitate 
+          <lb ed="#P"/>plenitudo caritatis possit locum habere opor<lb ed="#P"/>tuit 
+        divinam aliquam personam personae non 
+          <lb ed="#P"/>carere fide, igitur quam de facili, ideo[?] convincit 
+          <lb ed="#P"/>quod in vera divinitate pluralitas personarum de 
+          <lb ed="#P"/>esse non possit. Haec ille.</p>
+        
+        <p>Item ibidem 
+          <lb ed="#P"/>capitulo tertio arguit per rationem beatitudinis sup<lb ed="#P"/>positis 
+          <lb ed="#P"/>tribus propositionibus per se notis. Prima 
+          <lb ed="#P"/>quod in Deo est summa felicitas. Secunda quot 
+          <lb ed="#P"/>sicut caritate, nihil est melius, sic nihil 
+          <lb ed="#P"/>caritate iocundius. Tertia quod in plenitudine 
+          <lb ed="#P"/>summe felicitas de esse non potest, quo nihil
+          <pb ed="#P" n="6-v"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P"/>est iocundus.</p>
+        
+        <p>Ex quibus concludit quot 
+          <lb ed="#P"/>necesse est in summa felicitate caritatem noon 
+          <lb ed="#P"/>de esse, sed non potest esse amor iocundus si 
+          <lb ed="#P"/>non sit mutivis[??]. In stea </p>
+        
+   
+      </div>
+      
+      <div>
+        <head>Obiectio ad primam partem conclusionis tertiae: Opinio Petri Aureoli</head>
+        <p>Contra 
+          <lb ed="#P"/><supplied>tertiam</supplied><app><lem>tertiam</lem><rdg wit="Pr">secundam</rdg></app> conclusionem quo ad primam eius partem arguit 
+          <lb ed="#P"/><name>Aureolus</name> sic: nulla scientia praecedit ad con<lb ed="#P"/>concludendum 
+        sua principia. Sed theologia praecedit 
+        ad probandum articulos fidei, igitur etc. Maior nota, 
+          <lb ed="#P"/>quia principia scientiarum non sunt conclusiones earum, 
+          <lb ed="#P"/>sed potius ex ipsis conclusiones deducuntur. 
+          <lb ed="#P"/>Minor probatur, quia theologia ordinatur ad hoc: quod 
+          <lb ed="#P"/>per eam infidelis et haeretici negantes ar<lb ed="#P"/>ticulos 
+          fidei confutentur et fideles in fide 
+          <lb ed="#P"/>roborentur, ut patet per <name>Augustinum</name> XIV 
+          <lb ed="#P"/><title>De Trinitate</title>, capitulo primo, decentem: "Huic scientiae" 
+          <lb ed="#P"/>quae theologiae dicitur "non omnia attribuenda sunt 
+          <lb ed="#P"/>quae in rebus humaniis ab homine scire 
+          <lb ed="#P"/>possunt, sed illud c?mo[?], quo fides saluberrima 
+          <lb ed="#P"/>gignitur, nutritur, defenditur, et roboratur." 
+          <lb ed="#P"/>Sed hoc non potest esse nisi ea, quae sunt fidei 
+          <lb ed="#P"/>per theologiam concludantur esse vera contra 
+          <lb ed="#P"/>haeriticos et pro fidelibus in fide nutriendis[?] 
+          <lb ed="#P"/>ac roborandis.</p>
+        
+        <p>Patet etiam hoc idem, 
+          <lb ed="#P"/>prima <title>Petri</title>, tertio, ubi scientibus theologiam dicitur 
+          <lb ed="#P"/>divinum[?] autuem Christum sanctificate in cord<lb ed="#P"/>bus 
+        veris porati[?] semper ad satisfactionem 
+          <lb ed="#P"/>omni poscenti probandum[?] rationem de ea, quae in vo<lb ed="#P"/>bis 
+          est fides.</p>
+        
+        <p>Item <name>Augustinus</name> primo <title>De Trinitate</title> 
+          <lb ed="#P"/>capitulo 4o[?] fatetur se totum librum de 
+          <lb ed="#P"/>Trinitate oportet diuasse[?] ad declarandum istum 
+          <lb ed="#P"/>articulum 'Deus est trinus et unus'. Unde ibidem 
+          <lb ed="#P"/>ait omnes qui ante me scripserunt etc. ut 
+          <lb ed="#P"/>prius in probatione conclusionis secundae ubi etiam[?] 
+          <lb ed="#P"/>allegatur ad idem <name>Augustinus</name> <title>Contra Faustum</title>.</p>
+        
+        <p>Secundo sic: nulla scientia quaerit de suis principiis
+          <cb ed="#P" n="b"/><!-- <cb n="12rb"/> -->
+          <lb ed="#P"/>ad hoc quot ostendat ea esse vera, sed theologia 
+          <lb ed="#P"/>de articulis fidei plures format quaestiones 
+          <lb ed="#P"/>quod ostendat eos esse veras, igitur. Maior nota 
+          <lb ed="#P"/>quia nulla scientia habet stabiliere sua principia, 
+          <lb ed="#P"/>sed ea praesupponit. Minor patet in pluribus 
+          <lb ed="#P"/>doctorum theologicorum dictis, ubi formant quaestiones 
+          <lb ed="#P"/>de fidei articulis ad eorum veritatem osten<lb ed="#P"/>dendam.</p>
+        
+        <p>Tertio sequitur quod notitia quae est fides 
+          <lb ed="#P"/>altior esset notitia scientifica et certa certitudine 
+          <lb ed="#P"/>evidentiae principiorum. Falsum, quia fides est 
+          <lb ed="#P"/>medium inter opinionem et scientiam certam certitudine 
+          <lb ed="#P"/>evidentiae principiorum, ut dicit <name>Hugo</name>, <title>De Sacra<lb ed="#P"/>mentis</title>, 
+          libro primo parte, de civia capitulo 4o[?]. 
+          <lb ed="#P"/>Consequentia probatur quia habitus principiorum est altior habitu 
+          <lb ed="#P"/>conclusionem ex primo <title>Posteriorum</title>, et etiam quia cognitio 
+          <lb ed="#P"/>principiorum est causa cognitionum conclusionum cum q??uo 
+          <lb ed="#P"/>secundum te[?] articuli fidei quorum solum est 
+          <lb ed="#P"/>fides sint principia conclusionum theologicorum quarum 
+          <lb ed="#P"/>est scientia, sequitur propositum.</p>
+        
+        <p>Quarto, sequitur quod aliquis posset 
+          <lb ed="#P"/>adhaerere conclusioni dissentiendo con?conlcus?? 
+          <lb ed="#P"/>principiis. Falsum cum principia semper sunt no<lb ed="#P"/>tiora 
+          conclusionibus respectu quarum sunt principia 
+          <lb ed="#P"/>consequantur, quia credere articulos fidei est in nostra 
+          <lb ed="#P"/>pietate seu voluntate, sed non est in nostra vo<lb ed="#P"/>luntate 
+        non adhaerere conclusioni scientifice, igitur staret adherere conclusioni cuius principia 
+          <lb ed="#P"/>sunt articuli fidei, et articulis dissentire.</p>
+      </div>
+      
+      <div>
+        <head>Solutiones ad obiectiones Aureoli</head>
+        <div>
+          <head>Ad primum</head>
+        <p>Ad primum, cum, quando dicitur 'nullam scientiam' etc., negatur maior 
+          <lb ed="#P"/>quia <choice><orig><num>quarto</num></orig><reg><num>IVo</num></reg></choice> <title>Metaphysicae</title> probatur primum principium complexum. Et 
+          <lb ed="#P"/>sicut metaphysico, conceditur aliquis modus probandi sua 
+          <lb ed="#P"/>principia sit, nec debet denegari ipsi theologo 
+          <lb ed="#P"/>altius et subtilius illustrato.</p>
+        </div>
+        <div>
+          <head>Quod 'scientaim aliqua procedere ad concludendum sua principia' tripliciter intellig potest</head>
+          
+        <p>Aliter tamen magis 
+          <lb ed="#P"/>ad propositum dicitur 'quod scientiam aliquam procedere ad concludendum 
+          <lb ed="#P"/>sua principia' tripliciter intelligi potest. Primo sic: quod ali<lb ed="#P"/>qua 
+        scientia probet sua principia per aliqua priora et 
+          <lb ed="#P"/>ultiora[?] in ipsa scientia, et hoc dupliciter, quia vel 
+          <lb ed="#P"/>talia principia, quae dicuntur probari, sunt prima, 
+          <lb ed="#P"/>et tunc planum est quod maior rationis est vera 
+          <lb ed="#P"/>et minor non recte sumitur sub maiore[?], vel sunt 
+          <lb ed="#P"/>principia respectu aliquarum conclusionum, tamen sunt simpliciter
+          <lb ed="#P"/>prima, et tunc maior est falsa, et sumitur illud quod 
+          <lb ed="#P"/>assumuntur in probatione, scilicet, quod principia scientiarum non 
+          <lb ed="#P"/>sunt conclusiones earum, licet hoc sit verum infinite[?ae?] 
+          <lb ed="#P"/>non tamen verisimiliter.</p>
+        
+        <p>Secundo intelligitur quod recipienti 
+          <lb ed="#P"/>aliquam scientiam ostendatur ex contentis in illa scientia
+          <pb ed="#P" n="12-v"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P"/>veritas principiorum cuius exponendo passus[?] illius[?} scientiae in 
+          <lb ed="#P"/>quibus principia exprimuntur vel innuuntur esse 
+          <lb ed="#P"/>scientia, et sic quaelibet scientia potest concludere sua principia. 
+          <lb ed="#P"/>Et hoc, etiam praetendunt auctoritates de Sacra Scrip<lb ed="#P"/>tura 
+        et expresse <name>Augustinus</name> <choice><orig><num>primo</num></orig><reg><num>Io</num></reg></choice> <title>De Trinitate </title> 
+          <lb ed="#P"/>capitulo <choice><orig><num>IIIIo</num></orig><reg><num>4o</num></reg></choice> praeallegato.</p>
+        
+        <p>Tertio sic intelligitur 
+          <lb ed="#P"/>quod ea quae tamquam principa praesupponuntur 
+          <lb ed="#P"/>coassumptis quibusdam aliis cuiusdam scientiae vel al<lb ed="#P"/>terius 
+          veris ipsa eadem cum quadam mo<lb ed="#P"/>dificationem, scilicet, qua iam[?] inquit[?] explicite 
+          <lb ed="#P"/>intelligi possunt et etiam contra infideles et haere<lb ed="#P"/>ticos 
+        descendi concludantur et ad istum intellectum 
+          <lb ed="#P"/>etiam vadunt auctoritates praedictae.</p>
+        </div>
+          
+        <div>
+          <head>Ad secundum</head>
+        <p>Ad secundum c?ri[?] 
+          <lb ed="#P"/>arguitur nulla scientia que??[?] etc., dicendum quod Deo quo 
+          <lb ed="#P"/>quaeri duplicitur uno modo eo quod de ipso dubitatur 
+          <lb ed="#P"/>et ita dicitur principio theologicorum quod quaestio[?] est[?] dubitabilis 
+          <lb ed="#P"/>proprio. Et sic concessa maiore rationis. Negatur minor 
+          <lb ed="#P"/>et etiam illud quod assumitur in propositione eius.</p>
+        
+        <p>Alio modo qui??tur 
+          dea?[?] quo non quod de ipso dubitetur, sed ut in<lb ed="#P"/>ductis 
+        aliorum rationibus et opinionibus dubia eorum 
+          <lb ed="#P"/>quae ipsi habebant circa illud dissolvantur et 
+          <lb ed="#P"/>ita magis appareat mertas[?] et etiam, ut modi falsi 
+          <lb ed="#P"/>intelligendi quos aliqui habent de quo quaeritur 
+          <lb ed="#P"/>excludantur et veri modi exprimantur, ut patet
+          <lb ed="#P"/>de articulo Trinitatis, circa quem erraverunt hae<lb ed="#P"/>retici, 
+        et etiam incarnationis et pluribus aliis. 
+          <lb ed="#P"/>Unum et apus[?] articulum resurectionis probat 
+          <lb ed="#P"/>primo <del>quinto</del> thorivicorum[?] quinto deo[?], et etiam circa 
+          <lb ed="#P"/>articulum creationis multi erraverunt physicorum. 
+          <lb ed="#P"/>Et isto modo non est inconveniens aliquam scientiam 
+          <lb ed="#P"/>quaerere de suis principiis, et ita theologi 
+          <lb ed="#P"/>etiam formant quaestiones de articulis fidei.</p>
+        
+        <p>Item principia, licet in se sint verissima, ponit[?] 
+          <lb ed="#P"/>tamen in materia speciali falsae applicari et ex 
+          <lb ed="#P"/>hoc contingit, scilicet, communius[?] falsigraphus, sicut patet 
+          <lb ed="#P"/>in libro <title>Eelencorum</title>, et sic necesse est fieri quaestio<lb ed="#P"/>nes[??] 
+        articuli fidei in theologia ad videndum 
+          <lb ed="#P"/>quae ab aliis sophismatae seu falsigraphae sequi 
+          <lb ed="#P"/>dicantur ostendendo et declarando quod ista 
+          <lb ed="#P"/>in rei veritate non sequantur verae[?] ipsis 
+          <lb ed="#P"/>indistincte praesumptis haeretici falsigraphe 
+          <lb ed="#P"/>sylogizando falsas faciant apparentias
+          <cb ed="#P" n="b"/><!-- <cb n="12vb"/> -->
+          in materia speciali.</p>
+        </div>
+          <div>
+            <head>Ad tertium</head>
+        <p>Ad tertium, 'tunc fides altior 
+          <lb ed="#P"/>esset' etc. Negatur consequentia loquendo de fide prout 
+          <lb ed="#P"/>divitur[?] contra intellectum ad probationem[?] dicendum quod numquam conclusio ab 
+          <lb ed="#P"/>aquo[?] est illata ex pirre[?] credito vel cre<lb ed="#P"/>ditis 
+        praecise, et ut scientifica, et ideo si ex 
+          <lb ed="#P"/>quibusdam articulis ab aliquo infertur conclusio mere 
+          <lb ed="#P"/>scita oportere quod tales articuli ab illo sint sciti 
+          <lb ed="#P"/>vel intelllecti ampliori intelligentia seu notitia 
+          <lb ed="#P"/>quam sit sump?to[?] fides et quod tales intelligentia 
+          <lb ed="#P"/>amplior de articulis haberi possit patet per <name>Au<lb ed="#P"/>gustinum</name> 
+        tertio <title>De Trinitate</title> in fine, ubi dicit 
+          <lb ed="#P"/>ex tres personae sunt, ita aequales essentis[?] et
+          <lb ed="#P"/>in[?] confuse personatis[?], ut nec ydenptitas[?] confusionem 
+          <lb ed="#P"/>nec emanatio in pori[?]tatemm inducat ex si
+          <lb ed="#P"/>intellectu capi non potest fide teneatur donec 
+          <lb ed="#P"/>elucescat in cordibus iste, qui ait <name>Prophe<lb ed="#P"/>tam 
+          <lb ed="#P"/>Ysa</name>, nisi crediderit non intelligetis, 
+          <lb ed="#P"/>et de hoc, etiam postea plus videbitur.</p>          
+          </div>
+          <div>
+            <head>Ad quartum</head>
+          <p>Ad 
+            <lb ed="#P"/>quartum, cum arguitur quod aliquis[?] posset adhaerere etc. 
+            <lb ed="#P"/>Negatur consequentia ad probationem[?] dicendum quod sicut credere ar<lb ed="#P"/>ticulis 
+          est in nostra voluntate seu praestate, ita etiam 
+            <lb ed="#P"/>et adhaerere conclusionem[?], quem ex illis inferimus, et si ali<lb ed="#P"/>qua 
+            conclusio illata a nobis vere scientifice ex ali<lb ed="#P"/>quibus 
+          articulis esset nobis evidens vel scita 
+            <lb ed="#P"/>tales articuli ex quibus infertur essent nobis 
+            <lb ed="#P"/>evidentes vel scit?s[?].</p>
+          </div>
+        </div>
+        
+        <div>
+          
+          <head>Obiectio ad secundam partem conclusionis tertiae: Opinio Francis de Marchia</head>
+        
+        <div>
+          <head>Prima obiectio</head>
+          <p>Contra secundum partem conclusionis 
+          <lb ed="#P"/>tertiae est opinio <name>Francici de Marchia</name>, quaestione 
+        tertia prologi dicentis: a articuli fidei ex quibus 
+        velud principiis constant discursus theol<lb ed="#P"/>oci 
+          non tantum sunt nobis crediti, sed etiam eviden<lb ed="#P"/>tes 
+        et intellecti quod probat primo sic:<note><name>Francis de Marchia</name>, <title>Commentarius</title>, I, prol., q. 1, a. 1 (Mariani 449, n. 12)</note> <quote>"nullus 
+        tenetur indubitanter credere," ait, "quod non 
+          <lb ed="#P"/>est sibi per se notum vel expresse notis deduc<lb ed="#P"/>tum; 
+          sed quilibet theologicus tenetur indubi<lb ed="#P"/>tanter 
+        credere articulos fidei; igitur illi sunt 
+          <lb ed="#P"/>sibi per se noti vel ex per se notis inducti."</quote></p> 
+          
+          <p>Minor 
+            <lb ed="#P"/>patet,<note><name>Francis de Marchia</name>, <title>Commentarius</title>, I, prol., q. 1, a. 1 (Mariani 449, n. 13)</note> quia qui dubitat in fide infidelis est 
+          <lb ed="#P"/>et peccat. Non peccaret autem si non teneretur 
+          <lb ed="#P"/>eos indubitanter credere articulos fidei, igitur illi 
+          <lb ed="#P"/>sicut, sibi per se noti vel ex per se notis deducti minorem, 
+          <lb ed="#P"/>quia qui dubitat infidelis est et peccat. Non peccaret autem si 
+          <lb ed="#P"/>non teneretur eos indubitanter credere.</p> 
+          
+          <p>Maior probatur:<note><name>Francis de Marchia</name>, <title>Commentarius</title>, I, prol., q. 1, a. 1 (Mariani 449, n. 15)</note> "quia nullus tenetur fir<lb ed="#P"/>mius 
+          adhaerere conclusioni quam sit certitudo notitiae propter quam 
+          <lb ed="#P"/>adhaeret conclusioni." Hoc patet, quia conclusio non debet excedere certitudinem 
+          <lb ed="#P"/>principii, "sed omnis, qui assentit conclusioni alicui, assentit ei propter notitiam 
+          <lb ed="#P"/>quam habet de ipsa," quia, assentit alicui conclusioni, assentit ei propter notitiam 
+          <lb ed="#P"/>quam habet de illa conclusione,
+            <pb ed="#P" n="13-r"/>
+            <cb ed="#P" n="a"/>
+            <lb ed="#P"/>alias frustra assentietur illi plus quam 
+          <lb ed="#P"/>oppositae. Igitur non tenetur firmissimus adhaerere 
+          <lb ed="#P"/>conclusioni quam sit certitudo notitiae quam habet 
+          <lb ed="#P"/>de conclusione, sed nulla notitia non per se nota 
+          <lb ed="#P"/>vel ex per se notis deducta est certa infal<lb ed="#P"/>libiliter.
+          Igitur nullus tenetur credere infallibiliter 
+          <lb ed="#P"/>quod non est sibi per se notum vel ex per se no<lb ed="#P"/>tis
+          deductum.</p>
+
+      <p>Confirmatur, quia nullus credit 
+        <lb ed="#P"/>aliquid, nisi quia illud constat sibi, non  
+        <lb ed="#P"/>ideo constat, quia credit. Ex hoc apparet propter 
+        <lb ed="#P"/>ex unum quodque tale et illud magis, sed quicumque 
+        <lb ed="#P"/>credit, ideo credit consequens, quia sicut constat 
+        <lb ed="#P"/>antecedens, igitur notitia qua constat sibi debet esse certior 
+        <lb ed="#P"/>ipsa fide. Nulla autem notitia est certior fide, 
+        <lb ed="#P"/>nisi per se nota vel ex per se notis deducta.</p>
+        
+        </div>
+          <div>
+            <head>Secunda obiectio</head>
+            
+            <p>Secundo sic: aliquid potest proponi intellectui tripliciter.<note><name>Francis de Marchia</name>, <title>Commentarius</title>, I, prol., q. 1, a. 1 (Mariani 450-51, n. 20-21)</note> 
+          <lb ed="#P"/>[1] Vel ut per se notum in falsitate, verbi gratia, 'Deus 
+          <lb ed="#P"/>non est'; [2] Vel ut aliquid per se notum in veritate 
+          <lb ed="#P"/>vel ex per se notis deductum, verbi gratia, 'Deus est'; 
+          <lb ed="#P"/>[3} Vel modo medio, scilicet, ut probabilem vel de<lb ed="#P"/>ductum 
+        ex aliquo probabili. Tunc sit, sicut 
+          <lb ed="#P"/>quilibet tenetur indubitanter discredere illud 
+          <lb ed="#P"/>quod est sibi per se notum in falsitate et indubi<lb ed="#P"/>tanter 
+        credere illud quod est sibi notum in 
+          <lb ed="#P"/>veritate, ita tenetur probabiliter credere illud 
+          <lb ed="#P"/>quod est sibi probabiliter notus. Sed articulos fidei 
+          <lb ed="#P"/>non tantum probabiliter, sed indubitanter te<lb ed="#P"/>nemur 
+        credere, igitur ipsis non proponuntur 
+          <lb ed="#P"/>nobis ut probabilia, sed ut per se nota vel 
+          <lb ed="#P"/>ex per se notis deducta.</p>
+          </div>
+          <div>
+            
+            <head>Tertia obiectio</head>
+            
+            <p>Tertio:<note><name>Francis de Marchia</name>, <title>Commentarius</title>, I, prol., q. 1, a. 1 (Mariani 452-53, n. 26)</note> nullus habitus, 
+          <lb ed="#P"/>formaliter neuter ad utrumque oppositorum, 
+          <lb ed="#P"/>determinatur ad alterum istorum, nisi mediante 
+          <lb ed="#P"/>habitu determinate <choice><sic>respicienta</sic><corr>respiciente</corr></choice> alterum illorum, 
+          <lb ed="#P"/>nisi a casu. Sed fides est habitus neuter ad  
+          <lb ed="#P"/>verum et falsum, quia fides potest esse vera et falsa, 
+          <lb ed="#P"/>sicut opinio. Et fides nostra determina<lb ed="#P"/>ta 
+        est ad verum, et non a casu, igitur mediante 
+          <lb ed="#P"/>habitu. Talis habitus autem non est opinio, quia 
+          <lb ed="#P"/>nec ipsa respicit determinate unum, 
+          <lb ed="#P"/>ita est <add place="aboveLine">scientia</add> proprie dicta.</p>
+        
+          </div>
+          
+          <div>
+            
+            <p>Quarto:<note><name>Francis de Marchia</name>, <title>Commentarius</title>, I, prol., q. 1, a. 1 (Mariani 451, n. 22-23)</note> in creditis non 
+          <lb ed="#P"/>est procedere in infinitum, igitur oportet devenire 
+          <lb ed="#P"/>ad aliquod unum vel plura primo credita. 
+          <lb ed="#P"/>Tunc: de primo credito, quaero cur si ei 
+          <lb ed="#P"/>assentis? Aut enim assentis ei [1] propter se 
+          <lb ed="#P"/>vel [2] propter aliud creditum aut [3] propter aliud per se 
+          <lb ed="#P"/>notum. Non [2] propter aliud creditum, quia ipse
+          <cb ed="#P" n="b"/> <!-- <cb ed="#P" n="13rb"/>-->
+          <lb ed="#P"/>ponitur prius creditum. [1] Si propter se, igitur est 
+          <lb ed="#P"/>per se notum, quia nullum obiectum inferioris 
+          <lb ed="#P"/>ordinis potest causare assensum obiecti superioris 
+          <lb ed="#P"/>ordinis, sed obiectum per se notum est supremum obiectum 
+          <lb ed="#P"/>in genere cognoscibilium, et proprius modus assen<lb ed="#P"/>tiendi 
+          sibi est assentire ei propter se, igitur nullum 
+          <lb ed="#P"/>per se notum quod est inferiorum ordinis potest 
+          <lb ed="#P"/>causare assensum propter <choice><sic>sequitur</sic><corr>se</corr></choice>. Igitur omne quod potest causare 
+          <lb ed="#P"/>assensum propter se est per se notum. Et sic primum 
+          <lb ed="#P"/>creditum erit per se notum. [3] Si vero 
+          <lb ed="#P"/>ei assentiatur propter aliud per se notum, igitur ipsum 
+          <lb ed="#P"/>est deductum ex per se noto et hoc sufficit 
+          <lb ed="#P"/>in proposito.</p>
+        </div>
+        <div>
+          <head>Solutiones ad obiectiones Francis de Marchia</head>
+        <p>Ad primum illorum quando arguitur 'nullus 
+          <lb ed="#P"/>tenetur indubitanter credere etiam negatur aliqua 
+          <lb ed="#P"/>cum sit contra <name>Apostolum</name> dicentem quod fides est non 
+          <lb ed="#P"/>apparentium <title>Ad Hebraeos</title> XIo et sine fi<lb ed="#P"/>de 
+          impossibile est placere Deo ibidem, igitur te<lb ed="#P"/>nenitur 
+        credere non apparentia. Et per consequens non 
+          <lb ed="#P"/>nobis per se nota aut ex talibus deducta 
+          <lb ed="#P"/><name>Augustinus</name> quoque tertio decimo <title>De Trinitate</title> capitulo 
+          <lb ed="#P"/>quo dicit quod propterea credere iubemur, quia illud 
+          <lb ed="#P"/>quod credere iubemur videm[?] non possumus 
+          <lb ed="#P"/>cum etiam articulus Parisiensis tresi?? septimus[?] 
+          <lb ed="#P"/>eam expresse condempnat d?us[?] quod nihil 
+          <lb ed="#P"/>est credibile, nisi per se notum vel nisi ex per 
+          <lb ed="#P"/>se notis possit denominari[?] error.</p>
+        
+        <p>Ad probationem 
+          <lb ed="#P"/>quando dicitur: nullus tenetur firmius adhaerere' etc., illa 
+          <lb ed="#P"/>negatur, nisi addatur: 'nullus tenetur etiam[?etc.?] quam sit certitudo 
+          <lb ed="#P"/>notitiae propter[??] ergo[?] adhaeret conclusioni, 
+          <lb ed="#P"/>tunc enim esset vera, sed non esset ad propositum, 
+          <lb ed="#P"/>quia non praecise propter[?pp?] notitiam praecedentem[?] de 
+          <lb ed="#P"/>articulis fidei tenetur quid credere ipsis 
+          <lb ed="#P"/>articulis nec etiam aliqua notitia quae non est 
+          <lb ed="#P"/>fides aliter[?arguitur?] inducit fidem, nisi concurat 
+          <lb ed="#P"/>aliquo modo voluntas imperium habitus fidei et 
+          <lb ed="#P"/>forsitan cum hoc motio Dei specialis etc. 
+          <lb ed="#P"/>de quibus apparebit postea in[?] una quaestione specia<lb ed="#P"/>li 
+          et quando ulterius dicitur in minore quod nulla 
+          <lb ed="#P"/>notitia non per se nota etc. Ista negatur, oppositum 
+          <lb ed="#P"/>enim patet de fide.</p>
+        
+        <p>Ad confirmationem: quia nullus 
+          <lb ed="#P"/>credit aliquid[?aliquic?], nisi quia illud constat sibi 
+          <lb ed="#P"/>si intelligitur quod constet sibi per aliquam notitiam evi<lb ed="#P"/>dentem, 
+        quae est ipsa met fides vel 
+          <lb ed="#P"/>sufficienter se sola inducens fidem, negatur.
+          <pb ed="#P" n="13-v"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P"/>Si autem intelligitur quod illud quod aliquis credit 
+          <lb ed="#P"/>aliquo modo est sibi notum conceditur, quia est 
+          <lb ed="#P"/>sibi notum notitia fidei, et tunc non 
+          <lb ed="#P"/>est ad propositum arguentis, qui dicit 
+          <lb ed="#P"/>quod quicumque credit, ideo credit conclusionem[?], quia 
+          <lb ed="#P"/>constat sibi, antecedens illa enim neganda est, quia 
+          <lb ed="#P"/>aliquis credit aliquid[?aliquic?], scilicet, 'Deum esse 
+          <lb ed="#P"/>trinum et unum', etc. quod nullo modo constat sibi 
+          <lb ed="#P"/>antecedentis[?], licet quandoque ad generationem talis 
+          <lb ed="#P"/>fidie antecedentis concurrant vel apparentiae 
+          <lb ed="#P"/>vel etiam notitiae evidentes assumsivae[?] causantes 
+          <lb ed="#P"/>aliquam apparentiam quod merito credendum est praelato 
+          <lb ed="#P"/>vel ecclesiae inbeuti[?in beati[?] talem articulum credere 
+          <lb ed="#P"/>et ex hoc capitur apparentia quod talis articulus 
+          <lb ed="#P"/>est verus quamvis non sufficiat ad causan<lb ed="#P"/>dum 
+          <lb ed="#P"/>assensum sine[?sive?] aliis<orig>alis</orig> ut praedictum est.</p>
+        
+        <p>Ad secundum: cum arguitur 'aliquid potest proponi' etc., 
+          <lb ed="#P"/>dico quod articuli fidei nullo ??orum[?] modorum 
+          <lb ed="#P"/>nobis proponuntur, sed proponuntur nobis ut finiter[?] 
+          <lb ed="#P"/>credendi concesso tota autem[?antecedente?] negatur illa ul<lb ed="#P"/>tima 
+        consequentia quod ergo illa non proponuntur nobis 
+          <lb ed="#P"/>ut probabilia, sed ut per se nota vel ex per 
+          <lb ed="#P"/>se notis deducta quia talis co??va[??] praecipue 
+          <lb ed="#P"/>pro secunda parte sui, non sequitur ex antecedente toto propter 
+          <lb ed="#P"/>insufficientiam divisionis quae in eo proponitur.</p>
+        
+        <p>Ad tertiam: cum dicitur 'nullus habitus formatur neuter' 
+          <lb ed="#P"/>etc. Negatur maior, quia omnis habitus formatur 
+          <lb ed="#P"/>neuter et determinari potest per apparentias super<lb ed="#P"/>venientes 
+        de novo vel per revelationem 
+          <lb ed="#P"/>vel alium concursum divinum. Etiam cum dicitur 
+          <lb ed="#P"/>in minori quod fides est habitus neuter ad verum 
+          <lb ed="#P"/>et falsum, si intelligitur de finde nostra negandum 
+          <lb ed="#P"/>est quia nostrae fidei non potest sub esse falsum. 
+          <lb ed="#P"/>Si autem de fide prout extendit se universaliter 
+          <lb ed="#P"/>ad omnem credulitatem, sicut <choice><orig>12o</orig><reg>XIIo</reg></choice> <title>Metaphysicae</title> 
+          <lb ed="#P"/>dicitur quod fides vulgi fortior est fide philosophorum, 
+          <lb ed="#P"/>tunc admissa ista n?? ista consequentia fides 
+          <lb ed="#P"/>nostra determinata est adlus[?] verum et non
+          <lb ed="#P"/>a causa ista[?ita?] metaphysicae habitu intelligendo[?] communis[?] de habitu, 
+          <lb ed="#P"/>qui non est fides prout argumentum prae<lb ed="#P"/>tendit, 
+        non enim re?quiritur[?] alius habitus destructus 
+          <lb ed="#P"/>ab habitu fidei, qui determinant ipsum ad 
+          <lb ed="#P"/>verum cum ipse in se determinatus sit ad verum. 
+          <lb ed="#P"/>Diceres tu cur habitus fidei nunc inclinat 
+          <lb ed="#P"/>ad credendum 'Christum incarnatum est' prius idem 
+          <lb ed="#P"/>habitus inclinasset ad credendum 'Christum incar<cb ed="#P" n="b"/><!-- 13vb --><lb ed="#P"/>nandum. 
+          Respondetur quod prius fuit convinctus[??] 
+          <lb ed="#P"/>apparentiis et considerationibus quibus veri similiter 
+          <lb ed="#P"/>apparuit 'Christum esse incarnandum', nunc vero[?] 
+          <lb ed="#P"/>convictus est talibus apparentiis et considerationibus 
+          <lb ed="#P"/>quibus veri sumitur apparet 'Christum esse incarnatum'.</p>
+        
+        <p>Ad quartum: concedo primum creditum et illi assen<lb ed="#P"/>tio 
+        non propter se tamquam mihi[?veri?nisi?] per se notum vel 
+          <lb ed="#P"/>ex per se notis deductum vel propter aliud 
+          <lb ed="#P"/>creditum nec propter aliud per se notum ex quo 
+          <lb ed="#P"/>mihi[?] evidenter sit deductum. Sed propter 
+          <lb ed="#P"/>apparentiam quam habeo de ipso, una tamen aliis 
+          <lb ed="#P"/>causis dictis[??].</p>
+        
+        <p>Contra primam partem eiusdem[?] conclusiorum[?] 
+          <lb ed="#P"/>a??? vel principitur[??] theologiae sufficentia sunt propositiones 
+          <lb ed="#P"/>mere probabiles sive ex aliis scientiis vel 
+          <lb ed="#P"/>mere necesse vel mere credit vel mixtim[?] 
+          <lb ed="#P"/>se habentes, ita quod coniungantur, iunctam[?] tamen proba<lb ed="#P"/>bili 
+        vel credita vel aliqua credita cum 
+          <lb ed="#P"/>probabili, si primum habetur intentum non secundum, 
+          <lb ed="#P"/>quia omnis notitia de Deo principia necessariam 
+          <lb ed="#P"/>demonstratam, sed omnis notitia demonstrata de 
+          <lb ed="#P"/>Deo et divinis veritatibus est metaphysica, ut patet  
+          <lb ed="#P"/>sexto[??] <title>Metaphysicae</title> per <name>Commentatorem</name> dicentem quod ad 
+          <lb ed="#P"/>istam scientiam pertinet ista in quorum diffinitione 
+          <lb ed="#P"/>ponitur Deus, sicut in diffinitione naturalium 
+          <lb ed="#P"/>natura.</p>
+        
+        <p>Confirmatur, quia habitus ex necessariis 
+          <lb ed="#P"/>principiis acquisitus non supponit fidem, 
+          <lb ed="#P"/>quibus[???], immo cogeret intellectum cuiuscumque 
+          <lb ed="#P"/>ad assensum, sed theologica praesupponit fidem 
+          <lb ed="#P"/>iuxta illud <name>Ysayae</name>, <quote>"nisi credideritis"</quote> et illud <name>Augustinum</name> 
+          <lb ed="#P"/><title>Contra epistulam fundamenti</title>, capitulo 5[?] Vio[?] dicentem 
+          <lb ed="#P"/><quote>"ego fidem catholicam profiteor ac pistant<lb ed="#P"/>ive 
+            ad certam scientiam proventurum"</quote> e?o[?] praesum<lb ed="#P"/>tivo 
+          non tertium, quartum, vel quintum, quia ex mere cre<lb ed="#P"/>ditis 
+        non sequitur, nisi fides et ex una necessaria 
+          <lb ed="#P"/>et altera credita, etiam altera solum fides.</p>
+        
+        <p>Item ex una necessario et altera probabili non[?vero?] 
+          <lb ed="#P"/>simpliciter[??] ex una credita et altera probabili, 
+          <lb ed="#P"/>non sequitur, nisi opinio. Theologia autem nostra vere 
+          <lb ed="#P"/>est fides, ut patet per <name>Augustinus</name> <choice><orig>XIIIIo</orig><reg>XIVo</reg></choice> <title>De Trinitate</title>, 
+          <lb ed="#P"/>ubi hanc scientiam a fide distinctivit[??] nec etiam est 
+          <lb ed="#P"/>opinio eo quod illa est cum formidine 
+          <lb ed="#P"/>quam nostra theologia excludit, igitur etc.</p> 
+        
+        <p>Respondetur quod prin<lb ed="#P"/>cipia 
+        nostrae theologiae sunt propositiones creditae 
+          <lb ed="#P"/>quarum etiam aliae sunt necessariae et a quibusdem 
+          <lb ed="#P"/>alteri notitiam quam sit fides simplicium 
+          <lb ed="#P"/>intellectione et secundum hoc illis nostra theologia 
+          <lb ed="#P"/>est scientia, sicut declarabitur in capitulo sequenti.
+          <pb ed="#P" n="14-r"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P"/>Et quando dicitur in argumento quod omnis notitia de Deo per 
+          <lb ed="#P"/>principia necessaria est demonstratam. Ista negatur, nisi tunc 
+          <lb ed="#P"/>talia essent omnimodo evidentia quod non semper oportet.</p>
+        
+        <p>Pro 
+          <lb ed="#P"/>intellectu dicendorum[??] sciendum quod, sicut dicit <name>Augustinus</name> in libro 
+          <lb ed="#P"/>LXXXo ptum[?] quaestionum, quaestione XLVIIIa credibilium, 
+          <lb ed="#P"/>tria sunt genera. Alia sunt quae semper creduntur, 
+          <lb ed="#P"/>et numquam intelliguntur, sicut est omnis historia 
+          <lb ed="#P"/>temporalia et humana gesta per currens. Alia 
+          <lb ed="#P"/>quae mox ut creduntur, intelliguntur, sicut sunt 
+          <lb ed="#P"/>omnes rationes humanae, ut de numeris 
+          <lb ed="#P"/>vel quibuscumque discipulivis[??]. Tertium genus est 
+          <lb ed="#P"/>earum, quae primo creduntur et post 
+          <lb ed="#P"/>intelliguntur qustlia[?] sunt ea quae de 
+          <lb ed="#P"/>divinis rebus non possunt intelli<lb ed="#P"/>gi, 
+        nisi ab hiis quae <del rend="expunctated">in</del> mundo sunt 
+          <lb ed="#P"/>corde quod fit praeceptis servatis 
+          <lb ed="#P"/>quae de bene veniendo accipiuntur.</p>
+        
+        <p>Ex istis sequitur corrolariae quod de creditis 
+          <lb ed="#P"/>quae pertinent ad naturam divinam 
+          <lb ed="#P"/>potest viator habere notitiam fide al<lb ed="#P"/>tiorem 
+          patet ex tertia parte distinctionis 
+          <lb ed="#P"/>praemissae, quia quaedam de divinis re<lb ed="#P"/>bus 
+          primo creduntur et postea in<lb ed="#P"/>telliguntur 
+          ab hiis qui mundo sunt 
+          <lb ed="#P"/>corde, sed hoc nihil esset dictum 
+          <lb ed="#P"/>nisi talis intelligentia haberet 
+          <lb ed="#P"/>maiorem notitiam ultra fidem.</p>
+        
+        <p>Pro quo notandum sicut tangit su?taliter[?] 
+          <lb ed="#P"/>Cauderus[name or title] XIIo <title>Quodlibet</title>, quaestione secunda quodam 
+          <lb ed="#P"/>loquendo secundum quem modum generationis fi<lb ed="#P"/>dei 
+        et intelligentiae divinorum in 
+          <lb ed="#P"/>nobis oportet prae intelligere naturali[?] intelli<lb ed="#P"/>gentia 
+        quid per terminos eorum significetur prae 
+          <lb ed="#P"/>cognitione, scilicet, quid est quod dicitur per?no?ri quae necessario tra? hoc 
+          <lb ed="#P"/>ortum assensu, ut secundum hoc omnem intellectum et scientiam qui 
+          <lb ed="#P"/>habentur de credibilibus post fidem infusam oporteat 
+          <lb ed="#P"/>quod ambo reducere in sensum postquam aut[?] tale intelligere 
+          <lb ed="#P"/>triorum[??] in complexorum alicuius[?] complexi theologici habitum est 
+          <lb ed="#P"/>dicto modo, puta quid est Deus quid esse quid trinus quid 
+          <lb ed="#P"/>unus, licet vero ut est complexum credibilem, sed magis 
+          <lb ed="#P"/>ut meritis[??] nosciibile[??] et cum post modum tale complexum 
+          <lb ed="#P"/>proponitur ut credendum ex auctoritate Dei seu Ecclesiae etiam 
+          <lb ed="#P"/>et propter istam auctoritatem cum adiutorio fidei infusae 
+          <lb ed="#P"/>fuerit creditur p??ata[?] est via ad intelligendum supernaturaliter 
+          <lb ed="#P"/>illa incomplexa ex quibus tale complexum credibile constituitur 
+          <lb ed="#P"/>et hoc cum adiutorio supernaturalis luminis[?] exce<cb ed="#P" n="b"/><lb ed="#P"/>dentis[??] 
+        fidem et luminem fidei, ut poterit[?] canderus[?] 
+          <lb ed="#P"/>vel adiutorio luminis fidei quod secundum alios [??] hoc sufficit 
+          <lb ed="#P"/>una cum intelligentia et inquisitionis cognitione magis 
+          <lb ed="#P"/>tri?atur[?] quam philosophi ex puro lumine naturali potuerit 
+          <lb ed="#P"/>habere deitatis qua cognitione acquisita q[?] via distin<lb ed="#P"/>gueris 
+        in sensis per differentias oppositas[?obiectas?] et diffintam[?], scilicet comparando 
+          <lb ed="#P"/>differentiam specificam cum genere cognoscitur quid est Deus quid est 
+          <lb ed="#P"/>esse quid trinus et unus modo clariori quam cognosci posset 
+          <lb ed="#P"/>in lumine naturali, et tunc complexio expressibilis[?] terminis constituta quae primo 
+          <lb ed="#P"/>fuit credita et intellecta eo quod terminis dicto modo 
+          <lb ed="#P"/>clariori cognitis in ipsis statim cognosciuitur[??] 
+          <lb ed="#P"/>complexa; verbi gratia quod Deus est unus et quot 
+          <lb ed="#P"/>Deus est trinus cognitione altiori sci<lb ed="#P"/>licet 
+          prout sunt principia extrinseca in dis<lb ed="#P"/>cursu theologica quorum primum 
+          <lb ed="#P"/>est quod Deus est vel quod Deus est 
+          <lb ed="#P"/>unus ex quo taliter intellectio deve<lb ed="#P"/>nitur 
+          per viam artis cum adiutorio 
+          <lb ed="#P"/>luminis fidei, etc. ad omnia principi 
+          <lb ed="#P"/>a extrinsica ad discursum theologus 
+          <lb ed="#P"/>cum requisita prout aliqualiter cir<lb ed="#P"/>ca 
+          primam conclusionem primi arti<lb ed="#P"/>culi 
+        est declaratum et consimili modo 
+          <lb ed="#P"/>in eodem lumine etiam virtute tali<lb ed="#P"/>um 
+        principiorum extrinsecorum 
+          <lb ed="#P"/>respectu cuiuscumque conclusionis 
+          <lb ed="#P"/>theologice probabilis indagari pos<lb ed="#P"/>sunt 
+        principia <choice><orig>intrinsica</orig><reg>intrinseca</reg></choice>. Et sic habetur 
+          <lb ed="#P"/>habitus intellectivus de principiis tam intrinsecis 
+          <lb ed="#P"/>quam extrinsecis conclusionum theologus 
+          <lb ed="#P"/>carum ex eis deductibilium. Et per cconsequens al<lb ed="#P"/>tiori 
+          notitia quam sit fides cognoscibilium.</p>
+        
+        <p>De hoc etiam dicit <name>Allexander de 
+          <lb ed="#P"/>Halles</name> parte prima libri sui materia secunda quaestione 
+          <lb ed="#P"/>sedecimma[??] in responsione.</p>
+        </div>
+        </div>
+      <div>
+        <head>Secundus articulus</head>
+       
+        <p>Ad secundum articulum 
+          <lb ed="#P"/>quod fides est lumen animarum quo quanto 
+          <lb ed="#P"/>quis magis illustratur tanto magis est per spitax[?] 
+          <lb ed="#P"/>ad inveniendos rationes quibus probentur credam[?] et i?dem[?t??] 
+          <lb ed="#P"/>aut in responsionem ad quaestionem dicit quod credenda probari possunt per 
+          <lb ed="#P"/>rationes utiles ad quas inveniendas illuminat ipsa gratia Dei.</p>
+        
+        <p>Praeterea sciendum quod scientia in genere sic potest 
+          <lb ed="#P"/>describi scientia et notitia propositionalis adhae<lb ed="#P"/>siva 
+          cum certitudine penitus formidinem 
+          <lb ed="#P"/>excludente, et ita generatur etiam fides 
+          <lb ed="#P"/>scientia, dicitur iuxta illud <name>Augustinum</name> in libro de viden<lb ed="#P"/>do 
+          Deum illud dicius[?] scientiae quod testimonio 
+          <lb ed="#P"/>credimus aliorum et ita etiam lui?tom?ie[??} secundum super 
+          <lb ed="#P"/>primum posteriorum dicit posse accipi scientiam 
+          <lb ed="#P"/>communiter.</p>
+        
+          <p>Item <name>Augustinus</name></p>
+      </div>
+
+      </div>
+    </body>
+  </text>
+</TEI>
